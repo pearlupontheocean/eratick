@@ -1,0 +1,80 @@
+@import "../../styles/base.scss";
+
+.review-section {
+  padding: $section-padding;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.review-intro {
+  color: $blue-light;
+  width: 292px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 18px;
+  line-height: 26.14px;
+}
+
+.stars {
+  //   margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.review-pick {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: flex-end;
+  margin: 50px 0;
+}
+
+.review-details {
+  width: 70%;
+  //   text-align: center;
+  color: $dark-blue;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: center;
+  img {
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+
+  h5 {
+    margin: 5px 0;
+    color: $dark-blue;
+  }
+
+  span {
+    color: rgba(23, 28, 84, 0.5);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .review-intro {
+    font-size: 20px;
+  }
+  .review-pick {
+    align-items: center;
+  }
+  .review-details {
+    width: 60%;
+  }
+
+  .reviewer {
+    font-size: 18px;
+    margin-top: 30px;
+    img {
+      width: 80px;
+      height: 80px;
+      margin-right: 20px;
+    }
+  }
+}

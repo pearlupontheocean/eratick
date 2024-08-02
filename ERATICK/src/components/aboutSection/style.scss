@@ -1,0 +1,52 @@
+@import "../../styles/base.scss";
+
+.about-section {
+  background-color: $section-bg;
+  text-align: center;
+  padding: $section-padding;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.text-box {
+  width: 90%;
+  margin: auto;
+
+  p {
+    font-size: 24px;
+    line-height: 40px;
+  }
+}
+
+.side-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .about-section {
+    text-align: left;
+    display: flex;
+    // position: relative;
+    min-height: 120vh;
+    // height: 100%;
+    padding: 0;
+  }
+
+  .text-box {
+    width: 40%;
+    padding: 50px 0;
+    p {
+      font-size: 28px;
+    }
+  }
+  .side-image {
+    display: block;
+    width: 45%;
+    overflow: hidden;
+    height: inherit;
+    position: relative;
+    background-image: url("https://i.pinimg.com/564x/20/c1/f2/20c1f254c85c5c84e7ef45b9bf607b9f.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  background-color: #f8f8f8;
+  color: #333;
+  font-family: 'Arial, sans-serif';
+
+  &__section {
+    flex: 1;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+
+  &__title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem; // Reduced the margin for the texts
+    line-height: 1.6;
+    color: #666;
+  }
+
+  &__email,
+  &__phone {
+    font-size: 1.1rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 0.5rem; // Reduced the margin for the email and phone
+  }
+}

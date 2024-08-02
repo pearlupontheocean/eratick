@@ -1,0 +1,21 @@
+@import "../../styles/base.scss";
+
+.button-comp {
+  outline: none;
+  border: 0;
+  background-color: $hgreen;
+  color: $white;
+  font-family: "wisteria-serif";
+  font-size: 16px;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .button-comp {
+    font-size: 28px;
+  }
+}

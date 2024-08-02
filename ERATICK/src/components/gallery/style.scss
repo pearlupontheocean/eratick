@@ -1,0 +1,64 @@
+@import "../../styles/base.scss";
+
+.gallery {
+  background-color: $section-bg;
+  padding: $section-padding;
+}
+
+.top {
+  margin-bottom: 50px;
+}
+
+.slide {
+  // display: flex;
+  // flex-direction: row;
+  margin: 30px 0;
+  // overflow: hidden;
+}
+
+.gallery-image {
+  width: 150px;
+  height: 140px;
+  object-fit: fill;
+  border-radius: 10px;
+  margin: 0 20px;
+}
+
+@media screen and (min-width: 425px) {
+  .gallery-image {
+    width: 180px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .gallery {
+    padding: 100px 0;
+  }
+  .top {
+    padding: 0 80px;
+    margin-bottom: 80px;
+  }
+
+  .slide {
+    margin: 50px 0;
+  }
+
+  .gallery-image {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .gallery-image {
+    width: 400px;
+    height: 350px;
+  }
+}
+@media screen and (min-width: 1316px) {
+  .gallery-image {
+    width: 500px;
+    height: 450px;
+  }
+}

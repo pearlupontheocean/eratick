@@ -1,0 +1,22 @@
+@import "../../styles/base.scss";
+
+%general_styling {
+  height: 1px;
+  width: 103px;
+  background-color: $hgreen;
+
+  @media screen and (min-width: 768px) {
+    width: 256px;
+  }
+}
+
+.sub-head-line-center,
+.sub-head-line-left {
+  @extend %general_styling;
+  margin: auto;
+}
+@media screen and (min-width: 768px) {
+  .sub-head-line-left {
+    margin: 0;
+  }
+}

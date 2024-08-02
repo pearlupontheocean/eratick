@@ -1,0 +1,14 @@
+@import "../../styles/base.scss";
+
+.product-section {
+  background-color: $section-bg;
+  padding: $section-padding;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (min-width: 768px) {
+  .product-section {
+    padding: 100px 80px;
+  }
+}

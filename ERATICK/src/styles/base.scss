@@ -1,0 +1,111 @@
+// ************ COLORS *****************//
+
+$montana: #4ea5c0; // hero gradient color
+$header-montana: rgba(61, 112, 117, 0.85);
+$hgreen: #133639;
+$text-green: #265156;
+$footer-green: #192023;
+$section-bg: rgb(233, 238, 241);
+$dark-blue: #171c54; // blue color for review section
+$blue-light: #868aa7; // for review section sub-head
+$rv: rgba(23, 28, 84, 0.5);
+$white: #fff;
+$flash: #cac6c3;
+$twitter-blue: #00a8f0;
+$fb-blue: #2f80ed;
+$ig-blue: #c13584;
+$gold: #fed674;
+
+// ************ GRADIENTS  *****************//
+
+$gradient: linear-gradient(
+  180deg,
+  rgba(61, 112, 117, 0.85) 33.16%,
+  rgba(7, 68, 73, 0) 100%
+);
+
+// ************ SPACING *****************//
+
+$section-padding: 50px 0 50px;
+
+// ************ FONTS *****************//
+
+@font-face {
+  font-family: "wisteria-serif";
+  src: url("../assets/fonts/wisteria/Wisteria.ttf");
+}
+
+// ************ ELEMENTS *****************//
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h2,
+h3 {
+  color: $hgreen;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  margin: 0 0 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+p {
+  color: $text-green;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.section-space {
+  padding: 50px 0 50px;
+}
+
+.side-header {
+}
+
+.middle-header {
+  font-size: 100px;
+}
+
+// ************ MEDIA QUERIES *****************//
+
+@media screen and (min-width: 768px) {
+  // p {
+  //   // font-size: 28px;
+  //   line-height: 50px;
+  // }
+
+  .side-header {
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1300px) {
+  h2 {
+    font-size: 80px;
+  }
+}
