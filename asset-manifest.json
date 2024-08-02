@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/your-repo-name/static/css/main.52fb8a07.css",
-    "main.js": "/your-repo-name/static/js/main.81839dbf.js",
-    "static/js/787.4b726eba.chunk.js": "/your-repo-name/static/js/787.4b726eba.chunk.js",
-    "static/media/ERATICK_Logo.png": "/your-repo-name/static/media/ERATICK_Logo.5e6ed629289464203ddc.png",
-    "static/media/team5.png": "/your-repo-name/static/media/team5.c4e4c5171237ee4658e5.png",
-    "static/media/team2.png": "/your-repo-name/static/media/team2.47668598fe2676134a7d.png",
-    "static/media/Wisteria.ttf": "/your-repo-name/static/media/Wisteria.3609842e113dac2a83ad.ttf",
-    "static/media/team4.png": "/your-repo-name/static/media/team4.664bdc7afa7410672f87.png",
-    "static/media/revicons.eot": "/your-repo-name/static/media/revicons.a77de540a38981833f9e.eot",
-    "static/media/revicons.ttf": "/your-repo-name/static/media/revicons.57fd05d4ae650374c8de.ttf",
-    "static/media/revicons.woff": "/your-repo-name/static/media/revicons.e8746a624ed098489406.woff",
-    "index.html": "/your-repo-name/index.html",
-    "main.52fb8a07.css.map": "/your-repo-name/static/css/main.52fb8a07.css.map",
-    "main.81839dbf.js.map": "/your-repo-name/static/js/main.81839dbf.js.map",
-    "787.4b726eba.chunk.js.map": "/your-repo-name/static/js/787.4b726eba.chunk.js.map"
+    "main.css": "/eratick/static/css/main.3a318ab1.css",
+    "main.js": "/eratick/static/js/main.e46efde5.js",
+    "static/js/787.4b726eba.chunk.js": "/eratick/static/js/787.4b726eba.chunk.js",
+    "static/media/ERATICK_Logo.png": "/eratick/static/media/ERATICK_Logo.5e6ed629289464203ddc.png",
+    "static/media/team5.png": "/eratick/static/media/team5.c4e4c5171237ee4658e5.png",
+    "static/media/team2.png": "/eratick/static/media/team2.47668598fe2676134a7d.png",
+    "static/media/Wisteria.ttf": "/eratick/static/media/Wisteria.3609842e113dac2a83ad.ttf",
+    "static/media/team4.png": "/eratick/static/media/team4.664bdc7afa7410672f87.png",
+    "static/media/revicons.eot": "/eratick/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/eratick/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/eratick/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/eratick/index.html",
+    "main.3a318ab1.css.map": "/eratick/static/css/main.3a318ab1.css.map",
+    "main.e46efde5.js.map": "/eratick/static/js/main.e46efde5.js.map",
+    "787.4b726eba.chunk.js.map": "/eratick/static/js/787.4b726eba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.52fb8a07.css",
-    "static/js/main.81839dbf.js"
+    "static/css/main.3a318ab1.css",
+    "static/js/main.e46efde5.js"
   ]
 }
