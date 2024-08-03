@@ -2,7 +2,6 @@
 
 .review-section {
   padding: $section-padding;
-  font-family: 'Times New Roman', Times, serif;
 }
 
 .review-intro {
@@ -30,6 +29,7 @@
 
 .review-details {
   width: 70%;
+  font-family: 'Times New Roman', Times, serif;
   //   text-align: center;
   color: $dark-blue;
 }

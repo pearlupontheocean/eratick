@@ -4,61 +4,60 @@ import { galleryType } from "./types";
 import Slider from "react-slick";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import g1 from "../../assets/images/fl1.png";
-import g2 from "../../assets/images/fl11.png";
-import g3 from "../../assets/images/fl4.png";
-import g4 from "../../assets/images/fl7.jpg";
-import g5 from "../../assets/images/fl2.png";
-import g6 from "../../assets/images/fl10.jpg";
-import g7 from "../../assets/images/fl9.jpg";
-import g8 from "../../assets/images/fl3.jpg";
-import g9 from "../../assets/images/fl6.jpg";
+import g1 from "../../assets/images/G1.jpg";
+import g2 from "../../assets/images/G2.jpg";
+import g3 from "../../assets/images/G3.jpg";
+import g4 from "../../assets/images/G4.jpg";
+import g5 from "../../assets/images/G5.jpg";
+import g6 from "../../assets/images/G6.jpg";
+import g7 from "../../assets/images/G7.jpg";
+import g8 from "../../assets/images/G8.jpg";
 
 const index = () => {
   const gallery_items: Array<galleryType> = [
     {
       id: "1",
-      src: "https://media.istockphoto.com/id/1733124463/photo/stylish-dark-skinned-man-wearing-a-yellow-blazer.webp?b=1&s=170667a&w=0&k=20&c=dhEVxzO_8gCjtAmRZpALtf59c8YPaux10y6b1cUigAs=",
+      src: g1
     },
     {
       id: "2",
-      src: 'https://i.pinimg.com/originals/56/83/3f/56833fc135b72c855df60c78ccbf3644.png',
+      src: g2,
     },
     {
       id: "20",
-      src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk4WuTrjoqyWngThjc-dCwt8jhtwKFR0kuig&s',
+      src: g3,
     },
     {
       id: "3",
-      src: 'https://www.thefashionisto.com/wp-content/uploads/2023/05/Mens-Trenchcoat.jpg',
+      src: g4,
     },
     {
       id: "4",
-      src: 'https://i.pinimg.com/564x/48/43/a3/4843a30d29733576da92c98556900b65.jpg',
+      src: g5,
     },
   ];
 
   const second_gallery_items: Array<galleryType> = [
     {
       id: "2",
-      src: 'https://images.pexels.com/photos/878358/pexels-photo-878358.jpeg?cs=srgb&dl=pexels-mostafasanadd-878358.jpg&fm=jpg',
+      src: g6,
     },
     {
       id: "20",
-      src: 'https://img.mensxp.com/media/content/2023/May/Main-Image---iStock_6468788f18ba9.jpeg',
+      src: g7
     },
 
     {
       id: "3",
-      src: 'https://w0.peakpx.com/wallpaper/83/181/HD-wallpaper-man-model-glasses-headband-beard-fashion-men-thumbnail.jpg',
+      src: g8,
     },
     {
       id: "4",
-      src: 'https://peaklife.in/wp-content/uploads/2023/08/5-Brands-that-are-Redefining-Mens-Fashion-with-Stylish-Accessories-Cover-Image.jpg',
+      src: g1,
     },
     {
       id: "1",
-      src: 'https://st.depositphotos.com/1550494/2604/i/450/depositphotos_26043279-stock-photo-retro-fifties-summer-fashion-man.jpg',
+      src: g2,
     },
   ];
 

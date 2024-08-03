@@ -12,12 +12,13 @@ const index = () => {
           headerclass="side-header"
         />
         <p>
-        Welcome to Eratick, Australia's ultimate men’s fashion destination! We specialize in bold styles, vibrant colors, and daring designs that let your unique personality shine. From streetwear to formal wear, every piece in our collection is crafted with passion and precision to keep you looking fresh and confident. The Eratick man is confident, adventurous, and unapologetically himself.
+          <span style={{ fontWeight: '600', fontSize: '2rem' }}>Discover the Essence of Style : </span>
+          At Eratick, we believe in redefining men's fashion one shirt at a time. Our journey started with a simple idea: to create shirts that not only look good but feel extraordinary. Welcome to a new era of style, where sophistication meets comfort.
         </p>
 
         <p>
-        Join us in redefining fashion and making a statement. Dive into our latest collection and follow us on social media for exclusive updates and behind-the-scenes content. Stay bold, stay unique, stay Eratick. Follow us @EratickFashion on Instagram, Facebook, and Twitter.
-        </p>
+          <span style={{ fontWeight: '600', fontSize: '2rem' }}>Our Vision:</span>
+          We are not just a brand; we are a movement. Eratick is dedicated to the modern man who values quality, style, and authenticity. Our vision is to revolutionize men's wear by offering shirts that are meticulously crafted, effortlessly stylish, and unapologetically bold.        </p>
       </div>
       <div className="side-image">
         {/* <img src={SideImage} alt="A vace of flowers" /> */}

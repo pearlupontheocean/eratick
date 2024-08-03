@@ -11,7 +11,7 @@ const Header: React.FC = () => {
       <nav className="header__nav">
         <ul className="header__nav-list">
           <li className="header__nav-item">
-            HOME 
+            Home
           </li>
           <li className="header__nav-item">
             About Us 

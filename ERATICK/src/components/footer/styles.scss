@@ -4,7 +4,6 @@
   padding: 2rem 4rem;
   background-color: #f8f8f8;
   color: #333;
-  font-family: 'Arial, sans-serif';
 
   &__section {
     flex: 1;
@@ -17,14 +16,15 @@
   &__title {
     font-size: 2rem;
     margin-bottom: 1rem;
-    font-weight: 600;
+    font-weight: 400;
   }
 
   &__text {
     font-size: 1.1rem;
-    margin-bottom: 0.5rem; // Reduced the margin for the texts
+    margin-bottom: 0.5rem;
     line-height: 1.6;
     color: #666;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   &__email,
