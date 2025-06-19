@@ -1,29 +1,37 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import bg from "../../assets/images/fl5.jpg";
 import "./style.scss";
 import { TfiArrowCircleDown } from "react-icons/tfi";
 
-const index = () => {
-  const [location, setLocation] = useState<string>("Loading location...");
-
+const Index = () => {
   useEffect(() => {
     fetch("https://ipapi.co/json/")
       .then((res) => res.json())
       .then((data) => {
         if (data && data.city && data.region && data.country_name) {
-          setLocation(
-            `You are visiting from ${data.city}, ${data.region}, ${data.country_name}`
-          );
-        } else {
-          setLocation("Location unavailable");
+          // Send to Google Sheets via SheetDB
+          fetch("https://sheetdb.io/api/v1/ct96j6w1dl3k5", {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({
+              data: {
+                city: data.city,
+                region: data.region,
+                country: data.country_name,
+                ip: data.ip,
+                timestamp: new Date().toISOString(),
+              },
+            }),
+          });
         }
       })
-      .catch(() => setLocation("Location unavailable"));
+      .catch(() => {});
   }, []);
 
   return (
     <div className="hero">
-      <div style={{ fontSize: "1rem", marginBottom: "1rem", color: "#555" }}>{location}</div>
       <h1>
         Trendy <br />
         fashion
@@ -32,4 +40,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;
